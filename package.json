@@ -1,0 +1,30 @@
+{
+  "name": "adhoc-hw-noclist",
+  "version": "1.0.0",
+  "description": "Complete the Adhoc Noclist homework assignment to handle server retries",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests.js",
+    "run": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyfeder/adhoc-hw-noclist.git"
+  },
+  "author": "Emily Feder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emilyfeder/adhoc-hw-noclist/issues"
+  },
+  "homepage": "https://github.com/emilyfeder/adhoc-hw-noclist#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "superagent": "^5.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "nock": "^11.7.2",
+    "sinon": "^8.1.0"
+  }
+}
