@@ -40,7 +40,6 @@ class NoclistClient {
 				
 		ok(response.headers['badsec-authentication-token'], 'Auth response does not contain token');
 		this.auth_token = response.headers['badsec-authentication-token'];
-		console.log('set auth token', this.auth_token);
 	}
 	
 	async fetchUsers() {
